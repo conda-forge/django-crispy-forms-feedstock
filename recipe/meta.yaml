@@ -1,6 +1,6 @@
 {% set name = "django-crispy-forms" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "b29a9a671194e3a482891f319f69da81e30ae81c075f6e37adb14a83ba2c409b" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "0320b303420fec9ce94e045321dfd180ca0e31e0336211c5d30ad0bda5ebbb5d" %}
 
 
 package:
@@ -14,8 +14,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
