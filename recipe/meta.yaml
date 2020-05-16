@@ -1,6 +1,6 @@
 {% set name = "django-crispy-forms" %}
-{% set version = "1.8.1" %}
-{% set sha256 = "0afc0ba730f52a13c02bfbd0e1423af4577a337d73a8a0ef96f2cbbc5f345ffa" %}
+{% set version = "1.9.1" %}
+{% set sha256 = "fbe9c2c9698b6590afe37940cb08194d1e722015f6bc5bee83f679362406ea30" %}
 
 
 package:
@@ -32,9 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'The best way to have DRY Django forms. The app provides a tag and filter 
-  that lets you quickly render forms in a div format while providing an enormous 
-  amount of capability to configure and control the rendered HTML.'
+  summary: The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML.
   description: |
     Build programmatic reusable layouts out of components, having full control of the rendered 
     HTML without writing HTML in templates. All this without breaking the standard way of doing 
