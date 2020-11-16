@@ -20,11 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
     - setuptools
   run:
-    - python
-    - django >=1.8
+    - python >=3.5
+    - django >=2.2
     - jinja2
 
 about:
