@@ -5,9 +5,13 @@ Home: https://github.com/django-crispy-forms/django-crispy-forms
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-crispy-forms-feedstock/blob/master/LICENSE.txt)
 
 Summary: The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML.
+
+Development: https://github.com/django-crispy-forms/django-crispy-forms
+
+Documentation: https://readthedocs.org/projects/django-crispy-forms/
 
 Build programmatic reusable layouts out of components, having full control of the rendered
 HTML without writing HTML in templates. All this without breaking the standard way of doing
@@ -74,7 +78,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -125,4 +129,5 @@ Feedstock Maintainers
 
 * [@cshaley](https://github.com/cshaley/)
 * [@sannykr](https://github.com/sannykr/)
+* [@smithdc1](https://github.com/smithdc1/)
 
