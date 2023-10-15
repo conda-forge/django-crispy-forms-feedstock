@@ -1,11 +1,11 @@
-About django-crispy-forms
-=========================
+About django-crispy-forms-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-crispy-forms-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/django-crispy-forms/django-crispy-forms
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-crispy-forms-feedstock/blob/main/LICENSE.txt)
 
 Summary: The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML.
 
