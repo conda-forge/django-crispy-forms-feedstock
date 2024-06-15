@@ -1,6 +1,6 @@
 {% set name = "django-crispy-forms" %}
-{% set version = "2.1" %}
-{% set sha256 = "4d7ec431933ad4d4b5c5a6de4a584d24613c347db9ac168723c9aaf63af4bb96" %}
+{% set version = "2.2" %}
+{% set sha256 = "92cb7b7786fb82646bad739343fd17a99a04b0b736a09e34f3b91f26cbca7e4a" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
