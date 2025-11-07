@@ -1,6 +1,6 @@
 {% set name = "django-crispy-forms" %}
-{% set version = "2.4" %}
-{% set sha256 = "915e1ffdeb2987d78b33fabfeff8e5203c8776aa910a3a659a2c514ca125f3bd" %}
+{% set version = "2.5" %}
+{% set sha256 = "066e72a8f152a1334f1c811cc37740868efe3265e5a218f79079ef89f848c3d8" %}
 
 
 package:
